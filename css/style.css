@@ -1,0 +1,169 @@
+/* General Styles  */
+
+body {
+  background-image: url('/img/Endless-Constellation.svg');
+  font-family: 'Roboto', sans-serif;
+}
+
+label,
+input {
+  display: block;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* Form */
+
+.container {
+  background-color: #ffffff;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 1rem;
+  margin-top: -0.1rem;
+}
+
+.form {
+  margin: auto;
+  width: 80%;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  padding-top: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+input {
+  width: 90%;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  padding: 0.5rem;
+}
+
+label {
+  font-size: small;
+  font-weight: bold;
+}
+
+.forgot {
+  display: block;
+  padding-left: 10.2rem;
+  text-decoration: none;
+  font-size: small;
+  color: black;
+}
+
+.login {
+  margin: 0 auto;
+  display: block;
+  margin-top: 2rem;
+  background: linear-gradient(to right, #fc00ff, #00dbde);
+  border: none;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 30px;
+  padding: 15px 32px;
+  width: 90%;
+}
+
+.login:hover {
+  opacity: 0.5;
+}
+
+.link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.urls {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+.link:hover {
+  color: #00dbde;
+}
+
+.text {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.create-account {
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.user {
+  margin-left: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1rem;
+  list-style: none;
+  width: 60%;
+  padding: 0;
+}
+
+.icon:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  color: #ffffff;
+  margin-bottom: -1.4rem;
+  margin-top: -1rem;
+}
+
+.iconos-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.2rem;
+  gap: 0.7rem;
+}
+
+.iconos:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.iconos-container a:visited {
+  color: orange;
+}
+.iconos-container a:link {
+  color: orange;
+}
